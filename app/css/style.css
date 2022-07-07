@@ -276,12 +276,19 @@ body {
     border: 0;
     border-radius: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: start;
 }
 .info-first:hover, .info-second:hover, .info-third:hover, .info-fourth:hover, .info-fifth:hover {
     cursor: pointer;
 }
+.desing .block-first {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.desing .block-second {padding: 20px 0}
 .desing .sphere-green {
     width: 24px;
     height: 24px;
@@ -295,11 +302,36 @@ body {
     border-radius: 50%;
     background: #67AEFC;
     margin-right: 20px;
+    display: none;
 }
 .desing .p-first {
     font-size: 18px;
     line-height: 31.5px;
 }
 .desing .p-second {
+    font-size: 18px;
+    line-height: 31.5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 30px;
+    left: 10px;
+    border-left: 1px solid #000;
+    
+}
+.desing .p-second span:not(:last-child) {margin-bottom: 20px;}
+.desing .bottom {
+    width: 25px;
+    height: 12px;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+.desing .top {
+    width: 25px;
+    height: 12px;
+    position: absolute;
+    top: 16px;
+    right: 30px;
     display: none;
 }
