@@ -1,0 +1,305 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+html, body {width: 100%}
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 64%;
+    margin: 0 18%;
+}
+
+
+
+/*
+*
+* --- HEADER ---
+*
+*/
+
+.header {
+    width: 100%;
+    height: 95px;
+    background: #67AEFC;
+    display: flex;
+    align-items: center;
+}
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+*
+* --- LABEL ---
+*
+*/
+.header .label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 46.38px;
+}
+.header .label .left, .header .label .right {width: 40px}
+.header .label .label-back-left, .header .label .label-back-right {
+    height: 46.38px;
+    width: 42.56px;
+}
+.header .label .label-back-left {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+.header .label .label-back-right {
+    position: absolute;
+    top: 6px;
+    left: 29px;
+}
+.header .label .label-left, .header .label .label-right {
+    width: 17.84px;
+    height: 34.55px;
+}
+.header .label .label-left {
+    position: absolute;
+    top: -3px;
+    left: 7px;
+    z-index: 2;
+}
+.header .label .label-right {
+    position: absolute;
+    top: 12px;
+    left: 47px;
+    z-index: 2;
+}
+.header .label .leter {height: 16px}
+
+/*
+*
+* --- NAVIGATION ---
+*
+*/
+.header .nav > a {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 20px;
+    line-height: 19.5px;
+}
+.header .nav .header-btn {
+    text-transform: uppercase;
+    width: 170px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    background: #75E169;
+    color: #fff;
+    line-height: 15px;
+}
+.header .nav .header-btn:hover {
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.header .nav .header-btn:active {
+    background: #fff;
+    color: #67AEFC;
+    border: 2px solid #fff;
+}
+
+
+
+/*
+*
+* --- INTERNET-SHOP ---
+*
+*/
+.internet-shop {
+    position: relative;
+    height: 766px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.internet-shop h1 {
+    word-break: keep-all;
+    width: 550px;
+    height: 189px;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 62.5px;
+    color: #484848;
+}
+.internet-shop p {
+    width: 432px;
+    height: 88px;
+    margin-bottom: 50px;
+    line-height: 22.4px;
+    color: #000;
+}
+.btn {
+    width: 270px;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    background: #75E169;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+.btn:hover {
+    cursor: pointer;
+    border: 2px solid #67AEFC;
+}
+.btn:active {
+    border: 0;
+    background: #67AEFC;
+}
+.internet-shop .img-decore {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.internet-shop .ellipse-3 {
+    width: 149px;
+    height: 183px;
+    top: 537px;
+    left: -2px;
+}
+.internet-shop .layer-9 {
+    width: 171px;
+    height: 63px;
+    top: 603px;
+    left: 52px;
+}
+.internet-shop .sphere-267 {
+    width: 53px;
+    height: 53px;
+    top: 115px;
+    left: 174px;
+}
+.internet-shop .ellipse-2 {
+    width: 610px;
+    height: 548px;
+    top: 137px;
+    right: -2px;
+}
+.internet-shop .cylinder-278 {
+    width: 161px;
+    height: 83px;
+    top: 632px;
+    right: 255px;
+    z-index: 2;
+}
+.internet-shop .market-147 {
+    width: 509px;
+    height: 499px;
+    top: 253px;
+    right: 299px;
+    z-index: 2;
+    transform: rotate(-11deg);
+}
+.internet-shop .wave-257 {
+    width: 190px;
+    height: 70px;
+    top: 532px;
+    right: 654px;
+}
+.internet-shop .cylinder-275 {
+    width: 114px;
+    height: 57px;
+    top: 132px;
+    right: 554px;
+    z-index: 2;
+}
+.internet-shop .sphere-267-2 {
+    width: 59px;
+    height: 58px;
+    top: 458px;
+    right: 224px;
+    z-index: 2;
+}
+.internet-shop .sphere-264 {
+    width: 37px;
+    height: 37px;
+    top: 417px;
+    right: 154px;
+    z-index: 2;
+}
+.internet-shop .wave-258 {
+    width: 222px;
+    height: 81px;
+    top: 307px;
+    right: 224px;
+    z-index: 3;
+}
+
+
+/*
+*
+* --- DESING ---
+*
+*/
+.desing {
+    height: 703px;
+    background: #DAECFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.desing h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #111;
+    margin-bottom: 50px;
+}
+.info-first, .info-second, .info-third, .info-fourth, .info-fifth {
+    position: relative;
+    padding: 7px 30px;
+    margin-bottom: 7px;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.info-first:hover, .info-second:hover, .info-third:hover, .info-fourth:hover, .info-fifth:hover {
+    cursor: pointer;
+}
+.desing .sphere-green {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #75E169;
+    margin-right: 20px;
+}
+.desing .sphere-blue {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #67AEFC;
+    margin-right: 20px;
+}
+.desing .p-first {
+    font-size: 18px;
+    line-height: 31.5px;
+}
+.desing .p-second {
+    display: none;
+}
