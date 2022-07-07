@@ -1,3 +1,9 @@
+/**
+ * 
+ * --- DESING MENU FUNCTION ---
+ * 
+ */
+
 $('.info-first .bottom').click(function() {
     act_info('.info-first');
 
