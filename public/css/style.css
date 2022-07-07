@@ -167,11 +167,7 @@ body {
     border: 0;
     background: #67AEFC;
 }
-.internet-shop .img-decore {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+.internet-shop .img-decore {position: absolute}
 .internet-shop .ellipse-3 {
     width: 149px;
     height: 183px;
@@ -280,7 +276,8 @@ body {
     justify-content: start;
     align-items: start;
 }
-.info-first:hover, .info-second:hover, .info-third:hover, .info-fourth:hover, .info-fifth:hover {
+.info-first .bottom:hover, .info-second .bottom:hover, .info-third .bottom:hover, .info-fourth .bottom:hover, .info-fifth .bottom:hover,
+.info-first .top:hover, .info-second .top:hover, .info-third .top:hover, .info-fourth .top:hover, .info-fifth .top:hover {
     cursor: pointer;
 }
 .desing .block-first {
@@ -288,7 +285,10 @@ body {
     justify-content: start;
     align-items: center;
 }
-.desing .block-second {padding: 20px 0}
+.desing .block-second {
+    display: none;
+    padding: 20px 0;
+}
 .desing .sphere-green {
     width: 24px;
     height: 24px;
@@ -334,4 +334,11 @@ body {
     top: 16px;
     right: 30px;
     display: none;
+}
+.desing .bag_149 {
+    position: absolute;
+    width: 133px;
+    height: 148px;
+    bottom: 139px;
+    right: 67px;
 }
