@@ -84,3 +84,51 @@ function dis_info(info) {
     $(info + ' .top').css({"display" : ""});
     $(info + ' .bottom').css({"display" : ""});
 }
+
+
+/**
+ * 
+ * --- SLIDER ---
+ * 
+ */
+ var position = 0;
+function positions(num) {
+    position += num;
+
+    if(position < 1) {
+        $('.slide-first').css({"left" : ""});
+        $('.slide-second').css({"left" : ""});
+        $('.slide-third').css({"left" : ""});
+        $('.slide-fourth').css({"left" : ""});
+        $('.slide-fifth').css({"left" : ""});
+    } else if(position == 1) {
+        $('.slide-first').css({"left" : "calc(50% - (336px + (50px + 672px)))"});
+        $('.slide-second').css({"left" : "calc(50% - 336px)"});
+        $('.slide-third').css({"left" : "calc(50% + (336px + 50px))"});
+        $('.slide-fourth').css({"left" : "calc(50% + (336px + 50px) + (672px + 50px))"});
+        $('.slide-fifth').css({"left" : "calc(50% + (336px + 50px) + (672px + 50px) * 2)"});
+    } else if(position == 2) {
+        $('.slide-first').css({"left" : "calc(50% - (336px + (50px + 672px) * 2))"});
+        $('.slide-second').css({"left" : "calc(50% - (336px + (50px + 672px)))"});
+        $('.slide-third').css({"left" : "calc(50% - 336px)"});
+        $('.slide-fourth').css({"left" : "calc(50% + (336px + 50px))"});
+        $('.slide-fifth').css({"left" : "calc(50% + (336px + 50px) + (672px + 50px))"});
+    } else if(position == 3) {
+        $('.slide-first').css({"left" : "calc(50% - (336px + (50px + 672px) * 3))"});
+        $('.slide-second').css({"left" : "calc(50% - (336px + (50px + 672px) * 2))"});
+        $('.slide-third').css({"left" : "calc(50% - (336px + (50px + 672px)))"});
+        $('.slide-fourth').css({"left" : "calc(50% - 336px)"});
+        $('.slide-fifth').css({"left" : "calc(50% + (336px + 50px))"});
+    } else if(position == 4) {
+        $('.slide-first').css({"left" : "calc(50% - (336px + (50px + 672px) * 4))"});
+        $('.slide-second').css({"left" : "calc(50% - (336px + (50px + 672px) * 3))"});
+        $('.slide-third').css({"left" : "calc(50% - (336px + (50px + 672px) * 2))"});
+        $('.slide-fourth').css({"left" : "calc(50% - (336px + (50px + 672px)))"});
+        $('.slide-fifth').css({"left" : "calc(50% - 336px)"});
+    }
+    if(position <= 0) {
+        position = 0;
+    } else if(position >= 4) {
+        position = 4;
+    }
+}
