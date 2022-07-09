@@ -43,44 +43,44 @@ body {
 * --- LABEL ---
 *
 */
-.header .label {
+.label {
     position: relative;
     display: flex;
     align-items: center;
     height: 46.38px;
 }
-.header .label .left, .header .label .right {width: 40px}
-.header .label .label-back-left, .header .label .label-back-right {
+.label .left, .label .right {width: 40px}
+.label .label-back-left, .label .label-back-right {
     height: 46.38px;
     width: 42.56px;
 }
-.header .label .label-back-left {
+.label .label-back-left {
     position: absolute;
     top: -8px;
     left: 0;
 }
-.header .label .label-back-right {
+.label .label-back-right {
     position: absolute;
     top: 6px;
     left: 29px;
 }
-.header .label .label-left, .header .label .label-right {
+.label .label-left, .label .label-right {
     width: 17.84px;
     height: 34.55px;
 }
-.header .label .label-left {
+.label .label-left {
     position: absolute;
     top: -3px;
     left: 7px;
     z-index: 2;
 }
-.header .label .label-right {
+.label .label-right {
     position: absolute;
     top: 12px;
     left: 47px;
     z-index: 2;
 }
-.header .label .leter {height: 16px}
+.label .leter {height: 16px}
 
 /*
 *
@@ -666,3 +666,37 @@ body {
     width: 256px;
     height: 318px;
 }
+
+
+/*
+*
+* --- FOOTER ---
+*
+*/
+.footer {
+    width: 100%;
+    padding: 70px 0;
+    background: #64ABF9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.footer .block-first {
+    width: 70%;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer .block-first__box {
+    width: 25%;
+}
+.social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-tel {margin-bottom: 10px}
