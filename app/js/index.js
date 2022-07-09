@@ -132,3 +132,50 @@ function positions(num) {
         position = 4;
     }
 }
+
+
+/*
+ * 
+ * --- FORM ---
+ * 
+ */
+$('#name').focus(function() {
+    $(this).attr("placeholder", "Введите Имя");
+});
+$('#tel').focus(function() {
+    $(this).attr("placeholder", "Введите Tелефон");
+});
+$('#email').focus(function() {
+    $(this).attr("placeholder", "Введите Email");
+});
+
+
+$('#name').keyup(function() {
+    let name = $(this).val();
+
+    if (name.length <= 3) {
+        $(this).css({"color" : "red"});
+    } else {
+        $(this).css({"color" : ""});
+    }
+});
+$('#tel').keyup(function() {
+    let tel = $(this).val();
+
+    if (tel.length != 10 || tel.match("[a-zA-Z]")) {
+        $(this).css({"color" : "red"});
+    } else {
+        $(this).css({"color" : ""});
+    }
+});
+
+
+$('.btn-form').click(function() {
+    if (!$('#email').val().includes("@") || !$('#email').val().includes(".")) {
+        $('#email').css({"color" : "red"});
+    } else {
+        $('#name').val(null);
+        $('#tel').val(null);
+        $('#email').val(null);
+    }
+});

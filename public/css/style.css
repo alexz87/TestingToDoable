@@ -601,3 +601,68 @@ body {
     width: 59px;
     height: 58px;
 }
+
+
+/*
+*
+* --- TALK-FORM ---
+*
+*/
+.talk-form {
+    position: relative;
+    width: 100%;
+    padding: 150px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #DAECFF;
+}
+.talk-form h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.talk-form p {
+    width: 470px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    margin-bottom: 20px;
+}
+.talk-form .input {
+    width: 470px;
+    padding: 10px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #6EB1FB;
+    background: #fff;
+    color: #292929;
+}
+.talk-form .input:focus {
+    border: 2px solid #67AEFC;
+    caret-color: transparent;
+    width: 468px;
+    height: 30px;
+}
+.talk-form .phone {
+    position: absolute;
+    top: 220px;
+    left: 129px;
+    width: 256px;
+    height: 318px;
+}
+.talk-form .group-175 {
+    position: absolute;
+    bottom: 200px;
+    right: 129px;
+    width: 256px;
+    height: 318px;
+}
