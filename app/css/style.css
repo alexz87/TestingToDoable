@@ -557,3 +557,47 @@ body {
 * --- INFORMATION ---
 *
 */
+.information {
+    position: relative;
+    width: 100%;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information .info-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.information h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+.information p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    margin-bottom: 30px;
+}
+.information .info-img {
+    width: calc(30% - 70px);
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information .orders {
+    width: 500px;
+}
+.information .sphere-267 {
+    position: absolute;
+    top: 94px;
+    left: 99px;
+    width: 59px;
+    height: 58px;
+}
