@@ -1,0 +1,125 @@
+.dev-stage {
+    position: relative;
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dev-stage h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #000;
+}
+.dev-stage .box-btn .btn-slide,
+.dev-stage .mob-box-btn .btn-slide {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #67AEFC;
+    border-radius: 15px;
+    background: #fff;
+    margin: 0 20px;
+}
+.dev-stage .mob-box-btn .btn-slide {display: none}
+.dev-stage .box-btn .btn-slide:hover,
+.dev-stage .mob-box-btn .btn-slide:hover {cursor: pointer}
+.dev-stage .box-btn .btn-slide:active,
+.dev-stage .mob-box-btn .btn-slide:active {background: #67AEFC}
+.dev-stage .box-btn .btn-slide:active #left,
+.dev-stage .mob-box-btn .btn-slide:active #left-m,
+.dev-stage .box-btn .btn-slide:active #right,
+.dev-stage .mob-box-btn .btn-slide:active #right-m {stroke: #fff!important}
+.dev-stage .box-slide {
+    position: relative;
+    width: 100%;
+    height: 393px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+.dev-stage .box-slide > div:not(:last-child) {margin-right: 50px} 
+.dev-stage .box-slide .slide-first,
+.dev-stage .box-slide .slide-second,
+.dev-stage .box-slide .slide-third,
+.dev-stage .box-slide .slide-fourth,
+.dev-stage .box-slide .slide-fifth {
+    position: absolute;
+    top: 0;
+    width: 672px;
+    height: 389px;
+    border: 2px solid #67AEFC;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: all 600ms ease;
+}
+.dev-stage .box-slide > .slide-first {left: calc(50% - 336px)}
+.dev-stage .box-slide > .slide-second {left: calc(50% + (336px + 50px))}
+.dev-stage .box-slide > .slide-third {left: calc(50% + (336px + 50px) + (672px + 50px))}
+.dev-stage .box-slide > .slide-fourth {left: calc(50% + (336px + 50px) + (672px + 50px) * 2)}
+.dev-stage .box-slide > .slide-fifth {left: calc(50% + (336px + 50px) + (672px + 50px) * 3)}
+.dev-stage .sphere-269-light {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    width: 67px;
+    height: 67px;
+}
+.dev-stage .wave-257-blue {
+    position: absolute;
+    bottom: 74px;
+    right: 200px;
+    width: 190px;
+    height: 70px;
+}
+.dev-stage .text-slide {
+    width: 50%;
+    margin-left: 50px;
+}
+.dev-stage .text-slide h3 {
+    margin-bottom: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26.25px;
+    color: #000;
+}
+.dev-stage .text-slide p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #000;
+}
+.dev-stage .img-slide {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.dev-stage .img-slide .top-right-1 {
+    width: 250px;
+    height: 250px;
+}
+.dev-stage .img-slide .cake_214 {
+    width: 227px;
+    height: 222px;
+}
+.dev-stage .img-slide .group-1 {
+    position: absolute;
+    top: 15%;
+    left: -49px;
+}
+.dev-stage .img-slide .group-2 {
+    position: absolute;
+    top: 27%;
+    left: -9px;
+}
+.dev-stage .img-slide .group-3 {
+    position: absolute;
+    top: 17%;
+    left: -9px;
+}

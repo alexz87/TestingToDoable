@@ -1,0 +1,286 @@
+@media(max-width: 1399px) {
+    .footer .block-first__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+}
+
+
+@media(max-width: 1299px) {
+    .dev-stage .sphere-269-light {left: 150px}
+    .talk-form .phone {left: 59px}
+    .talk-form .group-175 {right: 59px}
+}
+
+
+@media(max-width: 1199px) {
+    .header-btn {display: none}
+    .desing .bag_149 {display: none}
+    .dev-stage .sphere-269-light {left: 60px}
+    .talk-form .phone {
+        left: 29px;
+        width: calc(256px - 5%);
+        height: calc(318px - 5%);
+    }
+    .talk-form .group-175 {
+        right: 29px;
+        width: calc(256px - 5%);
+        height: calc(318px - 5%);
+    }
+    .footer .block-first {width: 80%}
+    .footer .footer-label {width: 40%}
+    .footer .last {width: 15%}
+}
+
+
+@media(max-width: 991px) {
+    .nav {display: none!important}
+    .mob-nav {display: flex!important}
+    .internet-shop {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0 0 100px 0;
+    }
+    .header-box {
+        width: 90%;
+        margin: 0 5%;
+    }
+     .container {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .internet-shop h1 {
+        width: 100%;
+        line-height: 45px;
+    }
+    .internet-shop p {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .shop-box {display: none}
+    .mob-shop-box {
+        width: 100%;
+        padding: 110px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-shop-box > img {width: 100%}
+    .dev-stage .sphere-269-light {
+        top: 70px;
+        left: 30px;
+    }
+    .examples {overflow: hidden}
+    .examples .examples-box {
+        position: absolute;
+        top: 150px;
+        left: 0;
+    }
+    .examples .card {width: 40%}
+    .examples .wave-242, .examples .sphere-269 {display: none}
+    .information {
+        width: 90%;
+        padding: 0 5%;
+    }
+    .information .info-text {
+        width: 100%;
+        padding: 5% 0!important;
+        justify-content: center;
+    }
+    .information .info-text:not(:last-child) {margin-bottom: 30px}
+    .information .info-mob {display: inline}
+    .information .info-desc {display: none}
+    .information .info-img {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .information .sphere-267 {
+        top: -19px;
+        left: 84%;
+    }
+    .talk-form {padding: 100px 0 50px 0}
+    .talk-form .postpaid {display: inline}
+    .talk-form .phone, .talk-form .group-175 {display: none}
+    .footer .block-first {width: 90%}
+    .footer .footer-label {width: 35%}
+    .footer .tels {width: 33%}
+}
+
+
+@media(max-width: 849px) {
+    .desing .box {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .desing .p-first {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .dev-stage .sphere-269-light {left: 2px}
+    .dev-stage h2 {
+        text-align: center;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .footer .block-first {width: 90%}
+    .footer .footer-label {width: 35%}
+    
+}
+
+
+@media(max-width: 799px) {
+    .footer .block-first {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .block-first__box {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn {width: 100%}
+    .desing h2 {text-align: center}
+    .desing .p-first {word-break: keep-all}
+    .dev-stage .sphere-269-light {left: -12px}
+    .dev-stage .wave-257-blue {right: 50px}
+    .dev-stage .box-slide {height: 700px}
+    .dev-stage .box-slide .slide-first,
+    .dev-stage .box-slide .slide-second,
+    .dev-stage .box-slide .slide-third,
+    .dev-stage .box-slide .slide-fourth,
+    .dev-stage .box-slide .slide-fifth {
+        width: 389px;
+        height: 672px;
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: all 600ms ease;
+    }
+    .dev-stage .box-slide > .slide-first {left: calc(50% - 214px)}
+    .dev-stage .box-slide > .slide-second {left: calc(50% + (214px + 50px))}
+    .dev-stage .box-slide > .slide-third {left: calc(50% + (214px + 50px) + (429px + 50px))}
+    .dev-stage .box-slide > .slide-fourth {left: calc(50% + (214px + 50px) + (429px + 50px) * 2)}
+    .dev-stage .box-slide > .slide-fifth {left: calc(50% + (214px + 50px) + (429px + 50px) * 3)}
+    .dev-stage .text-slide {
+        width: 100%;
+        margin-left: 0;
+    }
+    .dev-stage .img-slide {
+        width: 100%;
+        height: 50%;
+        margin-left: 30%;
+        display: flex;
+        align-items: center;
+    }
+    .dev-stage .box-btn .btn-slide {display: none}
+    .dev-stage .mob-box-btn .btn-slide {display: inline}
+    .information .info-text {align-items: center}
+    .information .info-text h2,
+    .information .info-text p {text-align: center}
+    .information .orders {width: 50%}
+    .talk-form > *:not(:last-child) {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .talk-form h2, .talk-form p {text-align: center}
+    .talk-form .input {
+        width: calc(90% - 22px);
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15px;
+    }
+    .talk-form .input:focus {width: calc(90% - 24px)}
+}
+
+
+@media(max-width: 669px) {
+    .desing .p-first {width: 350px}
+    .dev-stage .wave-257-blue {display:none}
+    .examples .examples-box {top: 120px}
+    .examples .card {width: 43%}
+}
+
+
+@media(max-width: 549px) {
+    .desing .p-first {width: 300px}
+    .examples {overflow: hidden}
+    .examples .examples-box {
+        width: 200%;
+        transition: all 600ms ease;
+    }
+    .examples .card:not(:last-child) {margin-right: 70px}
+    .examples .btn-card-box {display: inline}
+    .information .sphere-267 {display: none}
+}
+
+
+@media(max-width: 507px) {
+    .internet-shop h1 {
+        text-align: center;
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .internet-shop p {text-align: center}
+}
+
+
+@media(max-width: 479px) {
+    .desing .p-first {width: 250px}
+    .dev-stage .box-slide {height: 654px}
+    .dev-stage .box-slide .slide-first,
+    .dev-stage .box-slide .slide-second,
+    .dev-stage .box-slide .slide-third,
+    .dev-stage .box-slide .slide-fourth,
+    .dev-stage .box-slide .slide-fifth {
+        width: 350px;
+        height: 610px;
+        padding: 20px;
+    }
+    .dev-stage .box-slide > .slide-first {left: calc(50% - 195px)}
+    .dev-stage .box-slide > .slide-second {left: calc(50% + (195px + 50px))}
+    .dev-stage .box-slide > .slide-third {left: calc(50% + (195px + 50px) + (390px + 50px))}
+    .dev-stage .box-slide > .slide-fourth {left: calc(50% + (195px + 50px) + (390px + 50px) * 2)}
+    .dev-stage .box-slide > .slide-fifth {left: calc(50% + (195px + 50px) + (390px + 50px) * 3)}
+    .examples h2 {
+        text-align: center;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .examples .card:not(:last-child) {margin-right: 50px}
+}
+
+
+@media(max-width: 439px) {
+    .desing .p-first {
+        width: 220px;
+        text-align: center;
+    }
+    .desing .p-second {text-align: center}
+    .dev-stage .box-slide .slide-first,
+    .dev-stage .box-slide .slide-second,
+    .dev-stage .box-slide .slide-third,
+    .dev-stage .box-slide .slide-fourth,
+    .dev-stage .box-slide .slide-fifth {width: 260px}
+    .dev-stage .box-slide > .slide-first {left: calc(50% - 150px)}
+    .dev-stage .box-slide > .slide-second {left: calc(50% + (150px + 50px))}
+    .dev-stage .box-slide > .slide-third {left: calc(50% + (150px + 50px) + (300px + 50px))}
+    .dev-stage .box-slide > .slide-fourth {left: calc(50% + (150px + 50px) + (300px + 50px) * 2)}
+    .dev-stage .box-slide > .slide-fifth {left: calc(50% + (150px + 50px) + (300px + 50px) * 3)}
+    .dev-stage .img-slide {margin-left: 10%}
+    .copiright {text-align: center}
+}

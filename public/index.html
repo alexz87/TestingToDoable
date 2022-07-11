@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Oleksandr Zadorozhnii">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/internet_shop.css">
+    <link rel="stylesheet" href="css/desing.css">
+    <link rel="stylesheet" href="css/dev_stage.css">
+    <link rel="stylesheet" href="css/examples.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/talk_form.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Test Task Developers</title>
 </head>
 <body>
     <header class="header">
-        <div class="container header-box">
+        <div class="header-box">
             <div class="label">
                 <div class=left>
                     <img src="img/Vector_back_left.svg" class="label-back-left">
@@ -34,18 +41,26 @@
                 </div>
             </div>
             <div class="nav">
-                <a href="#">Услуги</a>
-                <a href="#">Портфолио</a>
-                <a href="#">Этапы</a>
-                <a href="#">Дизайнеры</a>
+                <a class="services">Услуги</a>
+                <a class="portfolio">Портфолио</a>
+                <a class="stages">Этапы</a>
+                <a class="desings">Дизайнеры</a>
                 <button class="header-btn">Заказать</button>
+            </div>
+            <div class="mob-nav">
+                <div class="white"></div>
+                <div class="white"></div>
+                <div class="white"></div>
             </div>
         </div>
     </header>
+    <div class="mob-menu">
+        <a class="services">Услуги</a>
+        <a class="portfolio">Портфолио</a>
+        <a class="stages">Этапы</a>
+        <a class="desings">Дизайнеры</a>
+    </div>
     <section class="internet-shop">
-        <img src="img/Ellipse_3.svg" class="img-decore ellipse-3">
-        <img src="img/Layer_9.svg" class="img-decore layer-9">
-        <img src="img/shape_sphere_267.svg" class="img-decore sphere-267">
         <div class="container">
             <h1>Разработка интернет-магазина с нуля за неделю</h1>
             <p>
@@ -55,17 +70,25 @@
             </p>
             <button class="btn">Заказать</button>
         </div>
-        <img src="img/shape_wave_257.svg" class="img-decore wave-257">
-        <img src="img/go_to_market_147.svg" class="img-decore market-147">
-        <img src="img/shape_cylinder_275.svg" class="img-decore cylinder-275">
-        <img src="img/shape_sphere_267_2.svg" class="img-decore sphere-267-2">
-        <img src="img/shape_sphere_264.svg" class="img-decore sphere-264">
-        <img src="img/shape_wave_258.svg" class="img-decore wave-258">
-        <img src="img/shape_cylinder_278.svg" class="img-decore cylinder-278">
-        <img src="img/Ellipse_2.svg" class="img-decore ellipse-2">
+        <div class="mob-shop-box">
+            <img src="img/ill.svg" class="ill">
+        </div>
+        <div class="shop-box">
+            <img src="img/Ellipse_3.svg" class="img-decore ellipse-3">
+            <img src="img/Layer_9.svg" class="img-decore layer-9">
+            <img src="img/shape_sphere_267.svg" class="img-decore sphere-267">
+            <img src="img/shape_wave_257.svg" class="img-decore wave-257">
+            <img src="img/go_to_market_147.svg" class="img-decore market-147">
+            <img src="img/shape_cylinder_275.svg" class="img-decore cylinder-275">
+            <img src="img/shape_sphere_267_2.svg" class="img-decore sphere-267-2">
+            <img src="img/shape_sphere_264.svg" class="img-decore sphere-264">
+            <img src="img/shape_wave_258.svg" class="img-decore wave-258">
+            <img src="img/shape_cylinder_278.svg" class="img-decore cylinder-278">
+            <img src="img/Ellipse_2.svg" class="img-decore ellipse-2">
+        </div>
     </section>
     <section class="desing">
-        <div class="container">
+        <div class="box">
             <h2>Что входит в услугу по созданию дизайна интернет-магазина?</h2>
             <div class="info-first">
                 <div class="block-first">
@@ -237,12 +260,24 @@
                 </svg>
             </button>
         </div>
+        <div class="mob-box-btn">
+            <button class="btn-slide" onclick="mobPositions(-1)" id="btn-left">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="left-m" d="M13 25L1 13L13 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <button class="btn-slide" onclick="mobPositions(1)" id="btn-right">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="right-m" d="M1 25L13 13L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
         <img src="img/shape_wave_257_blue.svg" class="wave-257-blue">
     </section>
     <section class="examples">
-        <img src="img/wave_242.svg" class="wave-242">
         <h2>Примеры онлайн-магазинов</h2>
         <div class="examples-box">
+            <img src="img/wave_242.svg" class="wave-242">
             <div class="card-box">
                 <div class="card shopping-cart">
                     <h3>Онлайн-магазин</h3>
@@ -273,13 +308,28 @@
                     <p>для художников</p>
                 </div>
             </div>
+            <img src="img/sphere_269.svg" class="sphere-269">
         </div>
-        <img src="img/sphere_269.svg" class="sphere-269">
+        <div class="btn-card-box">
+            <button class="btn-slide" onclick="cardPositions(0)" id="btn-left-card">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="left-m-box" d="M13 25L1 13L13 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <button class="btn-slide" onclick="cardPositions(1)" id="btn-right-card">
+                <svg width="14" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="right-m-box" d="M1 25L13 13L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
     </section>
     <section class="information">
         <img src="img/shape_sphere_267.svg" class="sphere-267">
         <div class="info-text">
             <h2>Необходимо больше информации?</h2>
+            <div class="info-img info-mob">
+                <img src="img/Orders.svg" class="orders">
+            </div>
             <p>
                 Если Вы владелец онлайн-магазина или только начинаете свой путь в 
                 электронной коммерции и вам нужен уникальный дизайн онлайн магазина для стартапа, 
@@ -288,7 +338,7 @@
             </p>
             <button class="btn">Оставить заявку</button>
         </div>
-        <div class="info-img">
+        <div class="info-img info-desc">
             <img src="img/Orders.svg" class="orders">
         </div>
     </section>
@@ -303,32 +353,31 @@
         <input type="email" id="email" placeholder="Email" class="input">
         <button class="btn btn-form">Отправить</button>
         <img src="img/Group_175.svg" class="group-175">
+        <img src="img/Postpaid.svg" class="postpaid">
     </section>
     <footer class="footer">
         <div class="block-first">
-            <div class="block-first__box">
-                <div>
-                    <div class="label">
-                        <div class=left>
-                            <img src="img/Vector_back_left.svg" class="label-back-left">
-                            <img src="img/Vector_left.svg" class="label-left">
-                        </div>
-                        <div class=right>
-                            <img src="img/Vector_right.svg" class="label-right">
-                            <img src="img/Vector_back_right.svg" class="label-back-right">
-                        </div>
-                        <div>
-                            <img src="img/Vector_D.svg" class="leter">
-                            <img src="img/Vector_E.svg" class="leter">
-                            <img src="img/Vector_V.svg" class="leter">
-                            <img src="img/Vector_E.svg" class="leter">
-                            <img src="img/Vector_L.svg" class="leter">
-                            <img src="img/Vector_O.svg" class="leter">
-                            <img src="img/Vector_P.svg" class="leter">
-                            <img src="img/Vector_E.svg" class="leter">
-                            <img src="img/Vector_R.svg" class="leter">
-                            <img src="img/Vector_S.svg" class="leter">
-                        </div>
+            <div class="block-first__box footer-label">
+                <div class="label">
+                    <div class=left>
+                        <img src="img/Vector_back_left.svg" class="label-back-left">
+                        <img src="img/Vector_left.svg" class="label-left">
+                    </div>
+                    <div class=right>
+                        <img src="img/Vector_right.svg" class="label-right">
+                        <img src="img/Vector_back_right.svg" class="label-back-right">
+                    </div>
+                    <div>
+                        <img src="img/Vector_D.svg" class="leter">
+                        <img src="img/Vector_E.svg" class="leter">
+                        <img src="img/Vector_V.svg" class="leter">
+                        <img src="img/Vector_E.svg" class="leter">
+                        <img src="img/Vector_L.svg" class="leter">
+                        <img src="img/Vector_O.svg" class="leter">
+                        <img src="img/Vector_P.svg" class="leter">
+                        <img src="img/Vector_E.svg" class="leter">
+                        <img src="img/Vector_R.svg" class="leter">
+                        <img src="img/Vector_S.svg" class="leter">
                     </div>
                 </div>
                 <div class="social">
@@ -339,7 +388,7 @@
                     <span><i class="fab fa-whatsapp"></i></span>
                 </div>
             </div>
-            <div class="block-first__box">
+            <div class="block-first__box tels">
                 <p class="box-tel">
                     <span><i class="fab fa-viber"></i></span>
                     <span>Валерия: +380505585949</span>
@@ -353,11 +402,11 @@
                     <span>Валерия: +380505585949</span>
                 </p>
             </div>
-            <div class="block-first__box">
+            <div class="block-first__box last">
                 <p>hr@dv-s.com</p>
             </div>
         </div>
-        <div>
+        <div class="copiright">
             <p>Developers 2018-2021 © All rights reserved</p>
         </div>
     </footer>

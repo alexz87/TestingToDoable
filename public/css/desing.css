@@ -1,0 +1,96 @@
+.desing {
+    padding: 200px 0 100px 0;
+    background: #DAECFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.desing .box {
+    width: 70%;
+    margin: 0 15%;
+}
+.desing h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #111;
+    margin-bottom: 50px;
+}
+.info-first, .info-second, .info-third, .info-fourth, .info-fifth {
+    position: relative;
+    padding: 7px 30px;
+    margin-bottom: 7px;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.info-first .bottom:hover, .info-second .bottom:hover, .info-third .bottom:hover, .info-fourth .bottom:hover, .info-fifth .bottom:hover,
+.info-first .top:hover, .info-second .top:hover, .info-third .top:hover, .info-fourth .top:hover, .info-fifth .top:hover {cursor: pointer}
+.desing .block-first {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.desing .block-second {
+    display: none;
+    padding: 20px 0;
+}
+.desing .sphere-green {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #75E169;
+    margin-right: 20px;
+}
+.desing .sphere-blue {
+    width: 24px!important;
+    height: 24px!important;
+    border-radius: 50%;
+    background: #67AEFC;
+    margin-right: 20px;
+    display: none;
+}
+.desing .p-first {
+    font-size: 18px;
+    line-height: 31.5px;
+}
+.desing .p-second {
+    font-size: 18px;
+    line-height: 31.5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 30px;
+    left: 10px;
+    border-left: 1px solid #000;
+    
+}
+.desing .p-second span:not(:last-child) {margin-bottom: 20px;}
+.desing .bottom {
+    width: 25px;
+    height: 12px;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+.desing .top {
+    width: 25px;
+    height: 12px;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    display: none;
+}
+.desing .bag_149 {
+    position: absolute;
+    width: 133px;
+    height: 148px;
+    bottom: 119px;
+    right: 47px;
+}

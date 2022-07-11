@@ -1,0 +1,93 @@
+.examples {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    background: #DAECFF;
+}
+.examples .examples-box {
+    width: 100%;
+    margin-top: 50px;
+}
+.examples .card-box:not(:last-child) {margin-bottom: 30px}
+.examples .card-box {
+    display: flex;
+    justify-content: center;
+}
+.examples .card:not(:last-child) {margin-right: 30px}
+.examples .card {
+    border-radius: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 600ms ease;
+}
+.examples .shopping-cart {
+    background: url('../img/shopping_cart.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.examples .flower {
+    background: url('../img/flower.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.examples .hair-dryer {
+    background: url('../img/hair_dryer.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.examples .pexels {
+    background: url('../img/pexels.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.examples .unsplash {
+    background: url('../img/unsplash.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.examples .roller {
+    background: url('../img/roller.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.examples .card:hover {background: #67AEFC}
+.examples .card h3, .examples .card p {display: none}
+.examples .card:hover h3, .examples .card:hover p {display: inline}
+.examples .wave-242 {
+    position: absolute;
+    width: 130px;
+    height: 190px;
+    transform: rotate(-3deg);
+    top: 254px;
+    left: 40px;
+}
+.examples .sphere-269 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    bottom: 214px;
+    right: 70px;
+}
+.examples .btn-card-box {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 100px);
+}
+.examples .btn-card-box .btn-slide {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #67AEFC;
+    border-radius: 15px;
+    background: #fff;
+    margin: 0 20px;
+}
+.examples .btn-card-box .btn-slide {cursor: pointer}
+.examples .btn-card-box .btn-slide:active {background: #67AEFC}
+.examples .btn-card-box .btn-slide:active #left-m-box,
+.examples .btn-card-box .btn-slide:active #right-m-box {stroke: #fff!important}

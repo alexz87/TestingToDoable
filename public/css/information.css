@@ -1,0 +1,43 @@
+.information {
+    position: relative;
+    width: 70%;
+    padding: 150px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information .info-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.information h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+.information p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    margin-bottom: 30px;
+}
+.information .info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information .info-mob {display: none}
+.information .orders {
+    width: 90%;
+}
+.information .sphere-267 {
+    position: absolute;
+    top: 94px;
+    left: 99px;
+    width: 59px;
+    height: 58px;
+}

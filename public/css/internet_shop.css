@@ -1,0 +1,108 @@
+.internet-shop {
+    position: relative;
+    width: 70%;
+    padding: 200px 15% 100px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.shop-box {
+    width: 50%;
+    padding: 300px 0;
+}
+.mob-shop-box {display: none}
+.container {
+    width: 50%;
+    z-index: 9;
+}
+.internet-shop h1 {
+    word-break: keep-all;
+    width: 550px;
+    height: 189px;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    line-height: 62.5px;
+    color: #484848;
+}
+.internet-shop p {
+    width: 432px;
+    height: 88px;
+    margin-bottom: 50px;
+    line-height: 22.4px;
+    color: #000;
+}
+.internet-shop .img-decore {position: absolute}
+.internet-shop .ellipse-3 {
+    width: 149px;
+    height: 183px;
+    top: 537px;
+    left: -2px;
+}
+.internet-shop .layer-9 {
+    width: 171px;
+    height: 63px;
+    top: 603px;
+    left: 52px;
+}
+.internet-shop .sphere-267 {
+    width: 53px;
+    height: 53px;
+    top: 115px;
+    left: 174px;
+}
+.internet-shop .ellipse-2 {
+    width: 610px;
+    height: 548px;
+    top: 137px;
+    right: -2px;
+}
+.internet-shop .cylinder-278 {
+    width: 161px;
+    height: 83px;
+    top: 632px;
+    right: 255px;
+    z-index: 2;
+}
+.internet-shop .market-147 {
+    width: 509px;
+    height: 499px;
+    top: 253px;
+    right: 299px;
+    z-index: 2;
+    transform: rotate(-11deg);
+}
+.internet-shop .wave-257 {
+    width: 190px;
+    height: 70px;
+    top: 532px;
+    right: 654px;
+}
+.internet-shop .cylinder-275 {
+    width: 114px;
+    height: 57px;
+    top: 132px;
+    right: 554px;
+    z-index: 2;
+}
+.internet-shop .sphere-267-2 {
+    width: 59px;
+    height: 58px;
+    top: 458px;
+    right: 224px;
+    z-index: 2;
+}
+.internet-shop .sphere-264 {
+    width: 37px;
+    height: 37px;
+    top: 417px;
+    right: 154px;
+    z-index: 2;
+}
+.internet-shop .wave-258 {
+    width: 222px;
+    height: 81px;
+    top: 307px;
+    right: 224px;
+    z-index: 3;
+}
